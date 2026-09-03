@@ -1,26 +1,52 @@
 .sidebar {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
-    background-color: orange;  
-    height: 100%;
-    padding: 20px;
-    width: 15%;
+    background-color: lightblue;  
+    height:auto;
+    padding: 15px;
+    width:auto;
 }
 
-body {
-    background-color: gray;
+nav {
+    background-color: white;
+    text-align: center;
+    padding-left: 20%
 }
 
-a {
+.sidebar a {
     text-decoration: none;
     font-size: x-large;
     color: red;
-}
-.main {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    padding: 20px
+    display: block;
+    padding: 8px 16px;
 }
 
+.sidebar a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.main h1, h2, p, table{
+    margin-left: 30%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.main img {
+    position:absolute;
+    top:0%;
+    right:0%;
+    width: 20%;
+}
+
+.dashboard {
+    border-width: 2px;
+}
