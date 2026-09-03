@@ -1,37 +1,62 @@
-.sidebar {
+@font-face {
+    font-family: 'Minecraft';
+    src: url(resources/fonts/minecraftfont.woff);
+    font-weight: bold;
+}
+
+html {
+    font-family: "Minecraft";
+}
+
+.selector {
     position:fixed;
     top: 0;
     left: 0;
-    background-color: lightblue;  
     height:auto;
     padding: 15px;
-    width:auto;
+
+}
+
+.selector a:hover, a:active {
+    background-image: url(/resources/images/button_highlighted.png);
+    background-repeat: no-repeat;
+    display: block;
+
+    
+}
+
+
+#active-page {  
+    background-image: url(/resources/images/button_disabled.png);
+    color: white;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+body {
+    background-image: url(/resources/images/minecraft-background-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
-    background-color: white;
     text-align: center;
-    padding-left: 20%
 }
 
-.sidebar a {
+.selector a {
     text-decoration: none;
-    font-size: x-large;
-    color: red;
+    font-size: large;
+    color: white;
+    background-image: url(/resources/images/button.png);
+    background-repeat: no-repeat;
     display: block;
-    padding: 8px 16px;
-}
-
-.sidebar a:hover {
-  background-color: #555555;
-  color: white;
 }
 
 .main h1, h2, p, table{
     margin-left: 30%;
     margin-right: 20%;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 .main a {
@@ -48,5 +73,6 @@ nav {
 }
 
 .dashboard {
-    border-width: 2px;
+    border-width: 2px solid;
 }
+
