@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(/resources/fonts/minecraftfont.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Minecraft Bold';
+    src: url(/resources/fonts/3_Minecraft-Bold.woff);
+}
+
+p {
+    font-size: 75%;
+}
+
+.main h1, h2, h3, p {
+    font-family: "Minecraft";
+}
+
+.selector {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 15px;
+    font-family: "Minecraft";
+}
+
+.selector a:hover,
+a:active {
+    background-image: url(/resources/images/button_highlighted.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+#active-page {
+    background-image: url(/resources/images/button_disabled.png);
+    color: white;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+#minecraft-background {
+    background-image: url(/resources/images/minecraft-background-menu.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rdr2-background {
+    background-image: url(/resources/images/signpost-rdr2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+#stardew-valley-background {
+    background-image: url(/resources/images/minecraft-background-menu.jpg);
+    background-repeat: no-repeat;
+}
+
+.selector a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+
+    background-image: url(/resources/images/button.png);
+    background-repeat: no-repeat;
+    background-size: 400px 40px;
+    display: block;
+
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+
+}
+
+.main p, h1, h2, table {
+    margin-left: 30%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Blogs */
+.blogs {
+    color: yellow;
+    font-family: "Minecraft";
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    
+    background-image: url(/resources/images/button.png);
+    background-repeat: no-repeat;
+    background-size: 400px 40px;
+
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+    align-items: center;
+
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.blogs:hover {
+    color: red;
+}
+
+/* dashboard */
+.dashboard th,td {
+    border: 2px solid;
+    width: 50%;
+    height: 50%;
+    padding: 4px;
+}
+
+.dashboard td {
+    font-family: "Minecraft";
+}
+
+.dashboard th {
+    font-family: "Minecraft Bold";
+    font-size: large;
+}
+
+.dashboard th:hover {
+    color: gray;
+}
+
+.dashboard:has(.row-highlight-1:hover) .row-highlight-1,
+.dashboard:has(.row-highlight-1:hover) .row-highlight-quarter-1,
+.dashboard:has(.row-highlight-2:hover) .row-highlight-2,
+.dashboard:has(.row-highlight-2:hover) .row-highlight-quarter-1,
+.dashboard:has(.row-highlight-3:hover) .row-highlight-3,
+.dashboard:has(.row-highlight-3:hover) .row-highlight-quarter-1,
+.dashboard:has(.row-highlight-4:hover) .row-highlight-4,
+.dashboard:has(.row-highlight-4:hover) .row-highlight-quarter-2,
+.dashboard:has(.row-highlight-5:hover) .row-highlight-5,
+.dashboard:has(.row-highlight-5:hover) .row-highlight-quarter-2,
+.dashboard:has(.row-highlight-6:hover) .row-highlight-6,
+.dashboard:has(.row-highlight-6:hover) .row-highlight-quarter-2,
+.dashboard:has(.row-highlight-7:hover) .row-highlight-7,
+.dashboard:has(.row-highlight-7:hover) .row-highlight-quarter-3,
+.dashboard:has(.row-highlight-8:hover) .row-highlight-8,
+.dashboard:has(.row-highlight-8:hover) .row-highlight-quarter-3,
+.dashboard:has(.row-highlight-9:hover) .row-highlight-9,
+.dashboard:has(.row-highlight-9:hover) .row-highlight-quarter-3,
+.dashboard:has(.row-highlight-10:hover) .row-highlight-10,
+.dashboard:has(.row-highlight-10:hover) .row-highlight-quarter-4,
+.dashboard:has(.row-highlight-11:hover) .row-highlight-11,
+.dashboard:has(.row-highlight-11:hover) .row-highlight-quarter-4,
+.dashboard:has(.row-highlight-12:hover) .row-highlight-12,
+.dashboard:has(.row-highlight-12:hover) .row-highlight-quarter-4 {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+/* about me page */
+.about h1 {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.about h2 {
+    margin-bottom:20px;
+    display: flex;
+}
+
+.about p {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.main img {
+    position: absolute;
+    width: 15%;
+    right: 10%;
+}
+
