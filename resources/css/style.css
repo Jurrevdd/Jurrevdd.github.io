@@ -9,6 +9,25 @@
     src: url(/resources/fonts/3_Minecraft-Bold.woff);
 }
 
+footer {
+    background-color: black;
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    left:0%;
+    width: 100%
+}
+
+footer #tagline {
+    text-align: center;
+    color:white;
+}
+
+#GitHub {
+    size: 50%;
+    margin: 10px;
+}
+
 p {
     font-size: 75%;
 }
@@ -185,4 +204,3 @@ body {
     width: 15%;
     right: 10%;
 }
-
