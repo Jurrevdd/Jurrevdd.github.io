@@ -23,11 +23,6 @@ footer #tagline {
     color:white;
 }
 
-#GitHub {
-    size: 50%;
-    margin: 10px;
-}
-
 p {
     font-size: 75%;
 }
@@ -79,6 +74,7 @@ body {
 #stardew-valley-background {
     background-image: url(/resources/images/minecraft-background-menu.jpg);
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .selector a {
@@ -203,4 +199,9 @@ body {
     position: absolute;
     width: 15%;
     right: 10%;
+}
+
+#GitHub {
+    size: 50%;
+    margin: 10px;
 }
