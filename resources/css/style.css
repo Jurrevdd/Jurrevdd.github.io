@@ -9,6 +9,11 @@
     src: url(/resources/fonts/3_Minecraft-Bold.woff);
 }
 
+.homepage h3 {
+    margin-left:20%;
+    text-align: center;
+}
+
 footer {
     background-color: black;
     position: fixed;
@@ -29,13 +34,9 @@ footer #GitHub {
     text-align: center;
 }
 
-footer #GitHub img {
-    display: block;
-    width: 32px;
-    height: auto;
-    padding: 0;
-    margin: 10px auto;
-    position: static;
+#GitHub {
+    size: 50%;
+    margin: 10px;
 }
 
 p {
@@ -102,7 +103,6 @@ body {
     margin-left: 30%;
     margin-right: 20%;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
