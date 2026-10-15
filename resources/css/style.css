@@ -11,16 +11,31 @@
 
 footer {
     background-color: black;
-    display: block;
     position: fixed;
-    bottom: 0%;
-    left:0%;
-    width: 100%
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 footer #tagline {
+    color: white;
     text-align: center;
-    color:white;
+    margin: 10px 20px;
+}
+
+footer #GitHub {
+    display: block;
+    text-align: center;
+}
+
+footer #GitHub img {
+    display: block;
+    width: 32px;
+    height: auto;
+    padding: 0;
+    margin: 10px auto;
+    position: static;
 }
 
 p {
@@ -62,19 +77,6 @@ body {
     background-image: url(/resources/images/minecraft-background-menu.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#rdr2-background {
-    background-image: url(/resources/images/signpost-rdr2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-
-}
-
-#stardew-valley-background {
-    background-image: url(/resources/images/minecraft-background-menu.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 
 .selector a {
@@ -201,7 +203,4 @@ body {
     right: 10%;
 }
 
-#GitHub {
-    size: 50%;
-    margin: 10px;
-}
+
