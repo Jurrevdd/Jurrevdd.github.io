@@ -10,9 +10,11 @@
 }
 
 .homepage h3 {
-    margin-left:20%;
+    margin-left: 20%;
     text-align: center;
 }
+
+
 
 footer {
     background-color: black;
@@ -20,32 +22,58 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    text-align: center;
+}
+
+footer .footer-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
 }
 
 footer #tagline {
     color: white;
     text-align: center;
-    margin: 10px 20px;
+    margin: 10px 0;
 }
 
 footer #GitHub {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     display: block;
-    text-align: center;
+    margin: 0;
 }
 
-#GitHub {
-    size: 50%;
-    margin: 10px;
+footer #GitHub img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+}
+
+footer hr {
+    margin: 5px 10px;
 }
 
 p {
     font-size: 75%;
 }
 
-.main h1, h2, h3, p {
+.main h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
     font-family: "Minecraft";
 }
+
+
 
 .selector {
     position: fixed;
@@ -75,7 +103,7 @@ body {
 }
 
 #minecraft-background {
-    background-image: url(/resources/images/minecraft-background-menu.jpg) ;
+    background-image: url(/resources/images/minecraft-background-menu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -99,12 +127,18 @@ body {
 
 }
 
-.main p, h1, h2, table {
+.main p,
+h1,
+h2,
+table {
     margin-left: 30%;
     margin-right: 20%;
     align-items: center;
     text-align: center;
 }
+
+
+
 
 /* Blogs */
 .blogs {
@@ -112,8 +146,8 @@ body {
     font-family: "Minecraft";
     text-decoration: none;
     display: block;
-    margin-top: 20px;
-    
+    margin: 20px auto 50px;
+
     background-image: url(/resources/images/button.png);
     background-repeat: no-repeat;
     background-size: 400px 40px;
@@ -121,12 +155,10 @@ body {
     width: 400px;
     height: 40px;
     text-align: center;
-    margin-bottom: 50px;
     line-height: 40px;
-    align-items: center;
 
-    margin-left: 30%;
-    margin-right: 20%;
+    position: relative;
+    left: 5%;
 }
 
 .blogs:hover {
@@ -134,7 +166,8 @@ body {
 }
 
 /* dashboard */
-.dashboard th,td {
+.dashboard th,
+td {
     border: 2px solid;
     width: 50%;
     height: 50%;
@@ -181,6 +214,10 @@ body {
     background-color: rgba(128, 128, 128, 0.6);
 }
 
+progress {
+    position: inherit;
+}
+
 /* about me page */
 .about h1 {
     margin-bottom: 10px;
@@ -188,7 +225,7 @@ body {
 }
 
 .about h2 {
-    margin-bottom:20px;
+    margin-bottom: 20px;
     display: flex;
 }
 
@@ -203,4 +240,29 @@ body {
     right: 10%;
 }
 
+.about .picture-caption {
+    position: absolute;
+    top: 42%;
+    right: 10%;
+    width: 15%;
+    margin: 0;
+    color: white;
+    font-family: "Minecraft";
+    font-size: 75%;
+    text-align: center;
+}
 
+.swot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 700px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.swot-grid > div {
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
