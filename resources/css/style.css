@@ -9,13 +9,6 @@
     src: url(/resources/fonts/3_Minecraft-Bold.woff);
 }
 
-.homepage h3 {
-    margin-left: 20%;
-    text-align: center;
-}
-
-
-
 footer {
     background-color: black;
     position: fixed;
@@ -130,15 +123,13 @@ body {
 .main p,
 h1,
 h2,
-table {
+table,
+span {
     margin-left: 30%;
     margin-right: 20%;
     align-items: center;
     text-align: center;
 }
-
-
-
 
 /* Blogs */
 .blogs {
@@ -215,7 +206,10 @@ td {
 }
 
 progress {
-    position: inherit;
+    position: relative;
+    left: 50.5%;
+    display: block;
+    bottom: 15%;
 }
 
 /* about me page */
